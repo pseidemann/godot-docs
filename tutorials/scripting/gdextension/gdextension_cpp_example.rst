@@ -180,7 +180,7 @@ GDExtension node we'll be creating. We will name it ``gdexample.h``:
         GDExample();
         ~GDExample();
 
-        void _process(double delta);
+        void _process(double delta) override;
     };
 
     }
